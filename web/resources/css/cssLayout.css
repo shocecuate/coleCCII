@@ -1,0 +1,361 @@
+
+#top {
+    position: relative;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+#bottom {
+    position: relative;
+    background-color: #DC0000;
+    color: white;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+#left {
+    float: left;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #941f1f;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #941f1f;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #941f1f;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+/* Estilos para dispositivos de pantalla pequeña (máximo 600px de ancho) */
+@media only screen and (max-width: 600px) {
+    #left,
+    #right {
+        float: none;
+        width: 100%;
+    }
+
+    .right_content {
+        margin: 0;
+    }
+    #top,
+    #bottom,
+    #left,
+    #right,
+    .center_content,
+    .left_content,
+    .right_content {
+        border-radius: 10px;
+    }
+
+    .icon-home {
+        color: #0ce4f0; /* Cambia el color a azul */
+    }
+    
+    /* Cambiar color de fondo del menú y texto */
+    .ui-tabmenu-nav {
+        background-color: #941f1f;
+        color: #2471A3;
+        border-color: #adacac;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color de fondo de los botones */
+    .ui-tabmenu-nav .ui-state-default,
+    .ui-tabmenu-nav .ui-state-active {
+        background-color: #941f1f;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color del texto de los botones */
+    .ui-tabmenu-nav .ui-menuitem-text {
+        color: #960628;
+    }
+    /* Quitar borde en los elementos del tabMenu */
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-default,
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-active {
+        /* border: none;*/
+    }
+
+    /* Quitar borde del contenedor del menú */
+    .ui-tabmenu {
+        border: none;
+    }
+
+    /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active {
+        background-color: #E22B2B;
+        color: #DC0000;
+    }
+
+    /* Cambiar color de texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active .ui-menuitem-text {
+        color: #DC0000;
+    }
+
+    /* Cambiar color de fondo y borde del p:panel */
+    .ui-panel {
+        background-color: #DC0000;
+        border-color: #cccccc;
+    }
+
+    /* Cambiar color del título del p:panel */
+    .ui-panel .ui-panel-title {
+        color: white;
+    }
+
+    /* Cambiar color de fondo del header del p:panel */
+    .ui-panel .ui-panel-titlebar {
+        background-color: #dc0000 !important;
+        color: white;
+    }
+
+    /* Cambiar color de fondo y color de texto del p:fieldset legend */
+    .ui-fieldset-legend {
+        background-color: #dc0000 !important;
+        color: white !important;
+    }
+
+    /* Cambiar color de fondo del p:fieldset */
+    .ui-fieldset-content {
+        background-color: #ffffff !important;
+    }
+    .custom-fieldset .ui-fieldset-legend span {
+        color: #FFFDE7 !important;
+    }
+}
+
+/* Estilos para dispositivos de pantalla mediana (entre 601px y 900px de ancho) */
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    #left,
+    #right {
+        float: none;
+        width: 100%;
+    }
+
+    .right_content {
+        margin: 0;
+    }
+    #top,
+    #bottom,
+    #left,
+    #right,
+    .center_content,
+    .left_content,
+    .right_content {
+        border-radius: 10px;
+    }
+
+    .icon-home {
+        color: #0ce4f0; /* Cambia el color a azul */
+    }
+    
+    /* Cambiar color de fondo del menú y texto */
+    .ui-tabmenu-nav {
+        background-color: #941f1f;
+        color: #2471A3;
+        border-color: #adacac;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color de fondo de los botones */
+    .ui-tabmenu-nav .ui-state-default,
+    .ui-tabmenu-nav .ui-state-active {
+        background-color: #941f1f;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color del texto de los botones */
+    .ui-tabmenu-nav .ui-menuitem-text {
+        color: #960628;
+    }
+    /* Quitar borde en los elementos del tabMenu */
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-default,
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-active {
+        /* border: none;*/
+    }
+
+    /* Quitar borde del contenedor del menú */
+    .ui-tabmenu {
+        border: none;
+    }
+
+    /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active {
+        background-color: #E22B2B;
+        color: #DC0000;
+    }
+
+    /* Cambiar color de texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active .ui-menuitem-text {
+        color: #DC0000;
+    }
+
+    /* Cambiar color de fondo y borde del p:panel */
+    .ui-panel {
+        background-color: #DC0000;
+        border-color: #cccccc;
+    }
+
+    /* Cambiar color del título del p:panel */
+    .ui-panel .ui-panel-title {
+        color: white;
+    }
+
+    /* Cambiar color de fondo del header del p:panel */
+    .ui-panel .ui-panel-titlebar {
+        background-color: #dc0000 !important;
+        color: white;
+    }
+
+    /* Cambiar color de fondo y color de texto del p:fieldset legend */
+    .ui-fieldset-legend {
+        background-color: #dc0000 !important;
+        color: white !important;
+    }
+
+    /* Cambiar color de fondo del p:fieldset */
+    .ui-fieldset-content {
+        background-color: #ffffff !important;
+    }
+    .custom-fieldset .ui-fieldset-legend span {
+        color: #FFFDE7 !important;
+    }
+}
+
+/* Estilos para dispositivos de pantalla grande (más de 900px de ancho) */
+@media only screen and (min-width: 901px) {
+    #left,
+    #right {
+        float: none;
+        width: 100%;
+    }
+
+    .right_content {
+        margin: 0;
+    }
+    #top,
+    #bottom,
+    #left,
+    #right,
+    .center_content,
+    .left_content,
+    .right_content {
+        border-radius: 10px;
+    }
+
+    .icon-home {
+        color: #0ce4f0; /* Cambia el color a azul */
+    }
+    
+    /* Cambiar color de fondo del menú y texto */
+    .ui-tabmenu-nav {
+        background-color: #941f1f;
+        color: #2471A3;
+        border-color: #adacac;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color de fondo de los botones */
+    .ui-tabmenu-nav .ui-state-default,
+    .ui-tabmenu-nav .ui-state-active {
+        background-color: #941f1f;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Cambiar color del texto de los botones */
+    .ui-tabmenu-nav .ui-menuitem-text {
+        color: #960628;
+    }
+    /* Quitar borde en los elementos del tabMenu */
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-default,
+    .ui-tabmenu .ui-tabmenu-nav li.ui-state-active {
+        /* border: none;*/
+    }
+
+    /* Quitar borde del contenedor del menú */
+    .ui-tabmenu {
+        border: none;
+    }
+
+    /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active {
+        background-color: #E22B2B;
+        color: #DC0000;
+    }
+
+    /* Cambiar color de texto al seleccionar un elemento */
+    .ui-tabmenu .ui-tabmenu-nav .ui-state-active .ui-menuitem-text {
+        color: #DC0000;
+    }
+
+    /* Cambiar color de fondo y borde del p:panel */
+    .ui-panel {
+        background-color: #DC0000;
+        border-color: #cccccc;
+    }
+
+    /* Cambiar color del título del p:panel */
+    .ui-panel .ui-panel-title {
+        color: white;
+    }
+
+    /* Cambiar color de fondo del header del p:panel */
+    .ui-panel .ui-panel-titlebar {
+        background-color: #dc0000 !important;
+        color: white;
+    }
+
+    /* Cambiar color de fondo y color de texto del p:fieldset legend */
+    .ui-fieldset-legend {
+        background-color: #dc0000 !important;
+        color: white !important;
+    }
+
+    /* Cambiar color de fondo del p:fieldset */
+    .ui-fieldset-content {
+        background-color: #ffffff !important;
+    }
+    .custom-fieldset .ui-fieldset-legend span {
+        color: #FFFDE7 !important;
+    }
+}
+
