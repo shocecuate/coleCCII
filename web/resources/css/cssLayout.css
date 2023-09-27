@@ -60,7 +60,7 @@
 }
 
 /* Estilos para dispositivos de pantalla pequeña (máximo 600px de ancho) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 200px) {
     #left,
     #right {
         float: none;
