@@ -12,7 +12,7 @@
     color: white;
     padding: 5px;
     margin: 10px 0px 0px 0px;
-    
+
 }
 
 #left {
@@ -60,7 +60,7 @@
 }
 
 /* Estilos para dispositivos de pantalla pequeña (máximo 600px de ancho) */
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 600px) {
     #left,
     #right {
         float: none;
@@ -83,7 +83,7 @@
     .icon-home {
         color: #0ce4f0; /* Cambia el color a azul */
     }
-    
+
     /* Cambiar color de fondo del menú y texto */
     .ui-tabmenu-nav {
         background-color: #941f1f;
@@ -156,6 +156,15 @@
     }
     .custom-fieldset .ui-fieldset-legend span {
         color: #FFFDE7 !important;
+    }
+
+    /* Ejemplo con una clase específica */
+    .mi-boton .ui-button-text {
+        color: white; /* Cambia "red" al color que desees para el texto */
+    }
+
+    .mi-boton .ui-button {
+        background-color: green; /* Cambia "blue" al color que desees para el fondo */
     }
 }
 
@@ -183,7 +192,7 @@
     .icon-home {
         color: #0ce4f0; /* Cambia el color a azul */
     }
-    
+
     /* Cambiar color de fondo del menú y texto */
     .ui-tabmenu-nav {
         background-color: #941f1f;
@@ -256,6 +265,15 @@
     }
     .custom-fieldset .ui-fieldset-legend span {
         color: #FFFDE7 !important;
+    }
+
+    /* Ejemplo con una clase específica */
+    .mi-boton .ui-button-text {
+        color: white; /* Cambia "red" al color que desees para el texto */
+    }
+
+    .mi-boton .ui-button {
+        background-color: green; /* Cambia "blue" al color que desees para el fondo */
     }
 }
 
@@ -283,7 +301,7 @@
     .icon-home {
         color: #0ce4f0; /* Cambia el color a azul */
     }
-    
+
     /* Cambiar color de fondo del menú y texto */
     .ui-tabmenu-nav {
         background-color: #941f1f;
@@ -356,6 +374,15 @@
     }
     .custom-fieldset .ui-fieldset-legend span {
         color: #FFFDE7 !important;
+    }
+
+    /* Ejemplo con una clase específica */
+    .mi-boton .ui-button-text {
+        color: white; /* Cambia "red" al color que desees para el texto */
+    }
+
+    .mi-boton .ui-button {
+        background-color: green; /* Cambia "blue" al color que desees para el fondo */
     }
 }
 
