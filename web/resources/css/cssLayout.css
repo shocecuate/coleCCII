@@ -59,6 +59,9 @@
     text-decoration : underline;
 }
 
+.ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
+    font-size: 30px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+}
 /* Estilos para dispositivos de pantalla pequeña (máximo 600px de ancho) */
 @media only screen and (max-width: 600px) {
     #left,
@@ -91,8 +94,13 @@
         border-color: #adacac;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        /*display: flex;
+        flex-direction: column;
+        */
     }
-
+.ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
+    font-size: 30px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+}
     /* Cambiar color de fondo de los botones */
     .ui-tabmenu-nav .ui-state-default,
     .ui-tabmenu-nav .ui-state-active {
@@ -114,6 +122,11 @@
     /* Quitar borde del contenedor del menú */
     .ui-tabmenu {
         border: none;
+    }
+    
+    .ui-tabmenu-nav li {
+        margin-bottom: 10px;
+        font-size: 0.9rem; /* Ejemplo de tamaño relativo para pantallas pequeñas */
     }
 
     /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
@@ -161,10 +174,7 @@
     /* Ejemplo con una clase específica */
     .mi-boton .ui-button-text {
         color: white; /* Cambia "red" al color que desees para el texto */
-    }
-
-    .mi-boton .ui-button {
-        background-color: green; /* Cambia "blue" al color que desees para el fondo */
+        background-color: #941f1f;
     }
 }
 
@@ -200,8 +210,13 @@
         border-color: #adacac;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        /*display: flex;
+        flex-direction: column;
+        */
     }
-
+.ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
+    font-size: 30px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+}
     /* Cambiar color de fondo de los botones */
     .ui-tabmenu-nav .ui-state-default,
     .ui-tabmenu-nav .ui-state-active {
@@ -223,6 +238,11 @@
     /* Quitar borde del contenedor del menú */
     .ui-tabmenu {
         border: none;
+    }
+    
+    .ui-tabmenu-nav li {
+        margin-bottom: 10px;
+        font-size: 0.9rem; /* Ejemplo de tamaño relativo para pantallas pequeñas */
     }
 
     /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
@@ -270,15 +290,12 @@
     /* Ejemplo con una clase específica */
     .mi-boton .ui-button-text {
         color: white; /* Cambia "red" al color que desees para el texto */
-    }
-
-    .mi-boton .ui-button {
-        background-color: green; /* Cambia "blue" al color que desees para el fondo */
+        background-color: #941f1f;
     }
 }
 
 /* Estilos para dispositivos de pantalla grande (más de 900px de ancho) */
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 901px){
     #left,
     #right {
         float: none;
@@ -309,8 +326,13 @@
         border-color: #adacac;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        /*display: flex;
+        flex-direction: column;
+        */
     }
-
+.ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
+    font-size: 20px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+}
     /* Cambiar color de fondo de los botones */
     .ui-tabmenu-nav .ui-state-default,
     .ui-tabmenu-nav .ui-state-active {
@@ -332,6 +354,11 @@
     /* Quitar borde del contenedor del menú */
     .ui-tabmenu {
         border: none;
+    }
+    
+    .ui-tabmenu-nav li {
+        margin-bottom: 10px;
+        font-size: 0.9rem; /* Ejemplo de tamaño relativo para pantallas pequeñas */
     }
 
     /* Cambiar color de fondo del menú y texto al seleccionar un elemento */
@@ -379,10 +406,7 @@
     /* Ejemplo con una clase específica */
     .mi-boton .ui-button-text {
         color: white; /* Cambia "red" al color que desees para el texto */
-    }
-
-    .mi-boton .ui-button {
-        background-color: green; /* Cambia "blue" al color que desees para el fondo */
+        background-color: #941f1f;
     }
 }
 
