@@ -60,7 +60,7 @@
 }
 
 .ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
-    font-size: 30px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+    font-size: 36px; /* Cambia el tamaño de letra a 16px o al valor que desees */
 }
 /* Estilos para dispositivos de pantalla pequeña (máximo 600px de ancho) */
 @media only screen and (max-width: 600px) {
@@ -99,7 +99,7 @@
         */
     }
 .ui-tabmenu .ui-tabmenu-nav .ui-menuitem-text {
-    font-size: 30px; /* Cambia el tamaño de letra a 16px o al valor que desees */
+    font-size: 38px; /* Cambia el tamaño de letra a 16px o al valor que desees */
 }
     /* Cambiar color de fondo de los botones */
     .ui-tabmenu-nav .ui-state-default,
